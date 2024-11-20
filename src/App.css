@@ -1,0 +1,24 @@
+#root {
+	width: 100%;
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+form label {
+	display: flex;
+	flex-direction: column;
+}
+.container {
+	width: 100%;
+	display: flex;
+	margin-top: 3rem;
+	margin-bottom: 2rem;
+	align-items: center;
+	flex-direction: column;
+}
+
+.container img {
+	width: 5rem;
+}

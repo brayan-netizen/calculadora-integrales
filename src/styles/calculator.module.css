@@ -1,0 +1,30 @@
+.calculator {
+	font-family: Arial, sans-serif;
+	max-width: 600px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+h1 {
+	color: #4caf50;
+}
+
+input {
+	padding: 8px;
+	margin: 10px 0;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+button {
+	padding: 10px 20px;
+	background-color: #4caf50;
+	color: white;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #45a049;
+}
