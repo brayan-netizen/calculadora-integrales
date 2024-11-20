@@ -35,9 +35,16 @@
 .logoImage {
 	width: 120px;
 	height: auto;
+	margin: 1rem auto;
 }
 
 .copy {
 	margin-top: 20px;
 	font-size: 14px;
+}
+
+@media (max-width: 768px) {
+	.content {
+		flex-direction: column;
+	}
 }
